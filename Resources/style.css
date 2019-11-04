@@ -1,0 +1,36 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    color: white;
+    background-color: peachpuff;
+    
+}
+
+#logo {
+    color: purple;
+}
+
+.header {
+    background-image: url('./images/banner.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+
+.header-text {
+    z-index: 1;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: 'Major Mono Display', monospace;
+    
+    
+}
