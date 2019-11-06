@@ -11,39 +11,39 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg text-light">
-            <a id="logo" class="navbar-brand" href="#">Amethyst Yoga Studio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item text-light nav-link" href="../index.html">Home</a> 
-                <a class="nav-item text-light nav-link active" href="./classes.html">Classes<span class="sr-only">(current)</span></a>
-                <a class="nav-item text-light nav-link" href="./memberships.html">Memberships</a>
-              </div>
-            </div>
-        </nav>
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+                <a id="logo" class="navbar-brand" href="../index.html">Amethyst Yoga Studio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="../index.html">Home</a>
+                    <a class="nav-item nav-link active" href="./classes.html">Classes <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="./memberships.html">Memberships</a>
+                  </div>
+                </div>
+            </nav>
 
         <div class="backgroundimg">
-            <div class="classes-header">
+            <div class="classes-header py-4" style="background-color: darksalmon; opacity: 0.85;">
                 <h1 class="display-4 styledFont">Class Schedule</h1>
                 <p>Call us today to reserve your spot!</p>
 
             </div>
 
-            <div id="schedule" class="container">
+            <div id="schedule" class="container w-75">
                 <div class="row border">
                     <div class="col col-8 pt-4 pl-4 bg-light">
                         <h3 class="styledFont">Hot Strong Core</h3>
                         <p>Offered Mondays, Wednesdays, & Fridays</p>
-                        <ul>
+                        <ul class="text-left">
                             <li>begins with Warm Super Stretch followed by Rocket Flow</li>
                             <li>classes offered at 10 am, 11 am, and 1 pm</li>
                             <li>taught by licensed instructor Sage</li>
                         </ul>
                     </div>
-                    <div class="col col-4 pt-3 bg-secondary">
+                    <div class="col col-4 pt-3"  style="background-color: darkgrey;">
                         <img class=" img-fluid rounded-circle mx-auto d-block" style="max-width:75%; height:auto;" src="./images/sage.jpg" alt="yoga instructor">
                         <div class="text-center">
                             <p class="styledFont">Sage</p>
@@ -51,8 +51,8 @@
                     </div>
                 </div>
                 <div class="row border">
-                    <div class="col col-4 pt-3 bg-secondary">
-                        <img class="img-fluid rounded-circle align-middle mx-auto d-block" style="max-width:75%; height:auto" src="./images/jewel.jpg" alt="yoga instructor">
+                    <div class="col col-4 pt-3"  style="background-color: darkgrey;">
+                        <img class="img-fluid rounded-circle align-middle mx-auto d-block" style="max-width:75%; height:auto;" src="./images/jewel.jpg" alt="yoga instructor">
                         <div class="text-center">
                             <p class="styledFont">Jewel</p>
                         </div>
@@ -60,7 +60,7 @@
                     <div class="col col-8 pt-4 pl-4 bg-light">
                         <h3 class="styledFont">Restorative Session</h3>
                         <p>Offered Tuesdays & Thursdays</p>
-                        <ul>
+                        <ul class="text-left">
                             <li>begins with Warm Super Stretch followed by Hatha/Alignment yoga</li>
                             <li>classes offered at 9 am, 11 am, and 1 pm</li>
                             <li>taught by licensed instructor Jewel</li>
@@ -71,13 +71,13 @@
                     <div class="col col-8 pt-4 pl-4 bg-light">
                         <h3 class="styledFont">360 Flow</h3>
                         <p>Offered Saturdays & Sundays</p>
-                        <ul>
+                        <ul class="text-left">
                             <li>begins with Warm Super Stretch followed by full body yoga</li>
                             <li>classes offered at 9 am, 10 am, 11 am, and 1 pm</li>
                             <li>taught by licensed instructor Amber</li>
                         </ul>        
                     </div>
-                    <div class="col col-4 pt-3 bg-secondary">
+                    <div class="col col-4 pt-3" style="background-color: darkgrey;">
                         <img class="img-fluid rounded-circle mx-auto d-block" style="max-width:75%; height:auto;" src="./images/amber.jpg" alt="yoga instructor">
                         <div class="text-center">   
                             <p class="styledFont">Amber</p>
@@ -92,7 +92,15 @@
 
 
 
-        <footer> &#9400; Amethyst Yoga Studio</footer>
+        <footer> 
+            <div style="display: inline;">&#9400; Amethyst Yoga Studio </div>
+            <div class="bg-light" style="display: inline; float: right;">  
+                <a><i class="fa fa-facebook p-2"></i></a>
+                <a><i class="fa fa-twitter p-2"></i></a>
+                <a><i class="fa fa-instagram p-2"></i></a>
+                <a><i class="fa fa-snapchat-square p-2"></i></a>
+            </div>             
+        </footer>
 
             
 

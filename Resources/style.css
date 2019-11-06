@@ -3,15 +3,15 @@ body{
 }
 
 .navbar {
-    color: white;
+    color: purple;
     background-color: whitesmoke;
-    z-index: 10;
-    opacity: 0.75;
+    z-index: 2;
+    opacity: 0.8;
     
 }
 
 #logo {
-    color: purple;
+    color: darkmagenta;
 }
 
 .header {
