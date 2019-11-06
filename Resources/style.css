@@ -4,7 +4,9 @@ body{
 
 .navbar {
     color: white;
-    background-color: peachpuff;
+    background-color: whitesmoke;
+    z-index: 10;
+    opacity: 0.75;
     
 }
 
@@ -49,7 +51,7 @@ body{
 
 }
 
-.card, #schedule {
+.card, #schedule, #memberships {
     z-index: 1;
     opacity: 0.85;
 }
