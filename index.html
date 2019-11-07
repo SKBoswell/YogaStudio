@@ -11,49 +11,54 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg text-light">
-            <a id="logo" class="navbar-brand" href="#">Amethyst Yoga Studio</a>
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a id="logo" class="navbar-brand" href="./index.html">Amethyst Yoga Studio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item text-light nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item text-light nav-link" href="./Resources/medicinalApps.html">Classes</a>
-                <a class="nav-item text-light nav-link" href="./Resources/envApps.html">Memberships</a>
+                <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./Resources/classes.html">Classes</a>
+                <a class="nav-item nav-link" href="./Resources/memberships.html">Memberships</a>
               </div>
             </div>
         </nav>
-
-        <div class="header">
+          
+            
+        <div class="container-fluid header">
             <div class="header-text">
                 <p>amethyst</p>
                 <p>yoga</p>
                 <p>studio</p>
             </div>
         </div>
+    
 
-        <div id="home-info" class="container" >
+        <div class="container-fluid backgroundimg" >
             <div class="row py-4">
-                <h1 class="mx-auto">What can yoga do for you?</h1>
-                <p>In addition to the obvious benefits yoga can bring into your life, such as improving flexibility and building muscles strength, yoga can improve your health in many more ways than you may realize. </p>
+                <div class="col justify-content-center">
+                    <h1>What can yoga do for you?</h1>
+                    <p>In addition to the obvious benefits yoga can bring into your life, such as improving flexibility and building muscles strength, yoga can improve your health in many more ways than you may realize. </p>
+                </div>
             </div>
             <div class="row">
-                <div class="card col col-12 col-md-4">
+                <div class="card col col-12 col-sm-4">
                     <img src="./Resources/images/yoga card1.jpg" class="card-img-top pt-3" alt="yoga position">
                     <div class="card-body">
                         <h6 class="card-title mb-2 font-weight-bold">Prevents cartilage and joint breakdown</h6>
                         <p class="card-text">Each time you practice yoga, you take your joints through their full range of motion. This can help prevent degenerative arthritis or mitigate disability by "squeezing and soaking" areas of cartilage that normally aren't used.</p>
                     </div>
                 </div>
-                <div class="card col col-12 col-md-4">
+                <div class="card col col-12 col-sm-4">
                     <img src="./Resources/images/yoga card2.jpg" class="card-img-top pt-3" alt="yoga position">
                     <div class="card-body">
                         <h6 class="card-title mb-2 font-weight-bold">Drains your lymphs and boosts immunity</h6>
                         <p class="card-text">When you contract and stretch muscles, move organs around, and come in and out of yoga postures, you increase the drainage of lymph (a viscous fluid rich in immune cells). This helps the lymphatic system fight infection, destroy cancerous cells, and dispose of the toxic waste products of cellular functioning.</p>
                     </div>
                 </div>
-                <div class="card col col-12 col-md-4">
+                <div class="card col col-12 col-sm-4">
                     <img src="./Resources/images/yoga card3.jpg" class="card-img-top pt-3" alt="yoga position">
                     <div class="card-body">
                         <h6 class="card-title mb-3 font-weight-bold">Helps you sleep deeper</h6>
@@ -61,15 +66,10 @@
                     </div>
                 </div>  
             </div>  
-            <div class="row w-auto bg-light" style="opacity: 0.85;">
-                <h2 class="mx-auto py-3">Follow us on social media</h2>
+            <div class="row bg-light" style="opacity: 0.85;">
+                <h2 class="mx-auto py-5 display-4">Follow us on social media for class updates and special offers!</h2>
             </div> 
-             <div class="row px-auto w-auto bg-light" style="opacity: 0.85;">  
-                <a><i class="fa fa-facebook p-2"></i></a>
-                <a><i class="fa fa-twitter p-2"></i></a>
-                <a><i class="fa fa-instagram p-2"></i></a>
-                <a><i class="fa fa-snapchat-square p-2"></i></a>
-            </div>              
+                          
        
         </div>
 
@@ -77,7 +77,15 @@
 
 
 
-        <footer> &#9400; Amethyst Yoga Studio</footer>
+        <footer> 
+            <div style="display: inline;">&#9400; Amethyst Yoga Studio </div>
+            <div class="bg-light" style="display: inline; float: right;">  
+                <a><i class="fa fa-facebook p-2"></i></a>
+                <a><i class="fa fa-twitter p-2"></i></a>
+                <a><i class="fa fa-instagram p-2"></i></a>
+                <a><i class="fa fa-snapchat-square p-2"></i></a>
+            </div>             
+        </footer>
 
             
 
